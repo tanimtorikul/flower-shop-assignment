@@ -3,5 +3,39 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
+.main-button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: white;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
 /* header area styles */
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    max-width: 1500px;
+    display: flex;
+    height: 800px;
+    margin: auto;
+    align-items: center;
+}
+.banner-title{
+    margin-bottom: 32px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-desc{
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 50%;
+}
+
