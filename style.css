@@ -28,7 +28,7 @@ header{
     margin-bottom: 32px;
     color: #272727;
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 700;
 }
 .banner-desc{
     margin-bottom: 32px;
@@ -47,7 +47,7 @@ header{
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 24px;
 }
 .featured-desc{
@@ -109,7 +109,7 @@ header{
 .hot-deal-title{
     color: #272727;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 24px;
 }
 .colored-text{
@@ -117,6 +117,7 @@ header{
 }
 .hot-deal-desc{
     margin-bottom: 32px;
+    line-height: 30px;
 }
 
 
@@ -134,7 +135,7 @@ header{
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 24px;
 }
 .insta-desc{
@@ -145,3 +146,78 @@ header{
     line-height: 30px;
     margin-bottom: 48px;
 }
+
+/* subscribe area styles */
+.subscribe-section-area{
+    margin-top: 130px;
+}
+.subscribe-area{
+    max-width: 1440px;
+    background-image: url('asset/Rectangle\ 9.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.subscribe-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    
+}
+.subscribe-form-container{
+    display: flex;
+    gap: 16px;
+    margin: auto;
+}
+.subscribe-form{
+    padding: 20px 510px 22px 22px;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe-form::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  /* footer area styles */
+  footer{
+    background: #111010;
+    margin-top: 130px;
+  }
+  .footer-area{
+    text-align: center;
+    padding: 128px 650px;
+  }
+  .footer-title{
+    color:white;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .footer-desc{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+  }
+  .footer-copyright{
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+  }
