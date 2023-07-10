@@ -43,9 +43,11 @@ header{
 .featured-flowers-section{
     margin-top: 170px;
 }
+.featured-text{
+    text-align: center;
+}
 .featured-title{
     color: #272727;
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -53,37 +55,45 @@ header{
 .featured-desc{
     margin-bottom: 48px;
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
+
 .featured-flowers{
     max-width: 1440px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
     gap: 24px;
 }
-.featured-flower{
-    border-radius: 300px 300px 0px 0px;
-    width: 428px;
-    height: 538px;
-    text-align: center;
-}
 .flower1{
-    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px;
 }
 .flower2{
+    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    padding: 50px
 }
 .flower3{
-    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px;
 }
-.featured-flower img{
-    width: 310px;
+
+.flower-names{
+    text-align: center;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
 }
-.featured-flower3-title{
+.flower-name{    
+    margin-top: 32px;
+    color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
