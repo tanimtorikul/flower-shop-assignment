@@ -107,6 +107,33 @@ background: rgba(71, 125, 17, 0.15);
     text-decoration-line: underline;
 }
 
+/* support area styles */
+.support-section{
+    margin-top: 130px;
+}
+.support-container{
+    display: flex;
+    max-width: 1440px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 320px;
+}
+.support-content{
+    text-align: center;
+   
+}
+.support-content p{
+    color: rgba(39, 39, 39, 0.80); 
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+
 /* hot deals area styles */
 .hot-deals-section{
     background: rgba(229, 84, 115, 0.05);
