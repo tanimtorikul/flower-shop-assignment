@@ -42,18 +42,18 @@ header{
 
 /* featured section styles */
 .featured-flowers-section{
-    margin-top: 170px;
+    margin-top: 178px;
 }
 .featured-text{
     text-align: center;
 }
-.featured-title{
+.featured-heading{
+    margin-bottom: 24px;
     color: #272727;
     font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 24px;
+    font-weight: 800;
 }
-.featured-desc{
+.featured-paragraph{
     margin-bottom: 48px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -62,44 +62,29 @@ header{
 }
 .featured-flowers{
     max-width: 1440px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
     margin: 0 auto;
 }
-
-.flower-boxes{
+.flower-img {
+    border-radius: 300px 300px 0px 0px;
+    width: 410px;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
-    gap: 24px;
-}
-
-.flower-boxes img{
-    object-fit: contain;
-}
-.flower1{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    padding: 50px ;
-}
-.flower2{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding: 50px ;
-}
-.flower3{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-    padding: 50px;
-}
-
-.flower-names{
-    text-align: center;
-    max-width: 1440px;
-    display: flex;
-    gap: 80px;
-    justify-content: space-around;
-    margin: auto;
+    justify-content: center;
     align-items: center;
 }
-.flower-name{    
+.img1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.img2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.img3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured-title{
     margin-top: 32px;
     color: #272727;
     text-align: center;
