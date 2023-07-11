@@ -1,3 +1,4 @@
+/* common styles */
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +40,7 @@ header{
     width: 50%;
 }
 
-/* featured area */
+/* featured section styles */
 .featured-flowers-section{
     margin-top: 170px;
 }
@@ -107,7 +108,7 @@ background: rgba(71, 125, 17, 0.15);
     text-decoration-line: underline;
 }
 
-/* support area styles */
+/* support section styles */
 .support-section{
     margin-top: 130px;
 }
@@ -134,7 +135,7 @@ background: rgba(71, 125, 17, 0.15);
 }
 
 
-/* hot deals area styles */
+/* hot deals section styles */
 .hot-deals-section{
     background: rgba(229, 84, 115, 0.05);
     margin-top: 130px;
@@ -192,8 +193,8 @@ background: rgba(71, 125, 17, 0.15);
 }
 
 
-/* extra new arrival styles */
-.new-arrival-area{
+/* extra new arrival section styles */
+.new-arrival-section{
     margin-top: 130px;
 }
 .arrival-title{
@@ -233,8 +234,8 @@ background: rgba(71, 125, 17, 0.15);
 }
 
 
-/* subscribe area styles */
-.subscribe-section-area{
+/* subscribe section styles */
+.subscribe-section{
     margin-top: 130px;
 }
 .subscribe-area{
@@ -280,7 +281,7 @@ background: rgba(71, 125, 17, 0.15);
     font-weight: 400;
   }
 
-  /* footer area styles */
+  /* footer styles */
   footer{
     background: #111010;
     margin-top: 130px;
