@@ -59,27 +59,33 @@ header{
     font-weight: 400;
     line-height: 30px;
 }
-
 .featured-flowers{
     max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flower-boxes{
     display: flex;
     justify-content: space-around;
-    margin: auto;
     gap: 24px;
+}
+
+.flower-boxes img{
+    object-fit: contain;
 }
 .flower1{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding: 50px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px ;
 }
 .flower2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 50px
+    padding: 50px ;
 }
 .flower3{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+background: rgba(71, 125, 17, 0.15);
     padding: 50px;
 }
 
@@ -87,6 +93,7 @@ header{
     text-align: center;
     max-width: 1440px;
     display: flex;
+    gap: 80px;
     justify-content: space-around;
     margin: auto;
     align-items: center;
@@ -156,6 +163,48 @@ header{
     line-height: 30px;
     margin-bottom: 48px;
 }
+
+
+/* extra new arrival styles */
+.new-arrival-area{
+    margin-top: 130px;
+}
+.arrival-title{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    
+}
+
+.new-arrival-heading{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.new-arrival-images {
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+    justify-content: space-around;
+
+}
+
+.new-arrival-images img{
+    width: 342px;
+    border-radius: 20px;
+}
+.image-desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
 
 /* subscribe area styles */
 .subscribe-section-area{
