@@ -17,13 +17,22 @@
 /* header area styles */
 header{
     background: rgba(229, 84, 115, 0.10);
+    
+    overflow: hidden;
 }
 .banner{
     max-width: 1440px;
     display: flex;
-    height: 800px;
+    height: 100%;
     margin: auto;
     align-items: center;
+    
+}
+.banner-content{
+    max-width: 40vw;
+}
+.banner-image img{
+    width: 100%;
 }
 .banner-title{
     margin-bottom: 32px;
@@ -37,12 +46,13 @@ header{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    width: 50%;
+   
 }
 
 /* featured section styles */
 .featured-flowers-section{
     margin-top: 178px;
+    overflow: hidden;
 }
 .featured-text{
     text-align: center;
@@ -69,19 +79,22 @@ header{
 }
 .flower-img {
     border-radius: 300px 300px 0px 0px;
-    width: 410px;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img1{
+    padding: 10px;
     background: rgba(167, 33, 98, 0.15);
 }
 .img2{
+    padding: 10px;
     background: rgba(5, 151, 160, 0.15);
 }
 .img3{
+    padding-inline: 10px;
     background: rgba(71, 125, 17, 0.15);
 }
 .featured-title{
@@ -96,6 +109,7 @@ header{
 /* support section styles */
 .support-section{
     margin-top: 130px;
+    overflow: hidden;
 }
 .support-container{
     display: flex;
@@ -124,6 +138,7 @@ header{
 .hot-deals-section{
     background: rgba(229, 84, 115, 0.05);
     margin-top: 130px;
+    overflow: hidden;
 }
 .hot-deals-container{
     max-width: 1050px;
@@ -131,10 +146,13 @@ header{
     margin: auto;
     gap: 186px;
     align-items: center;
-    height: 70vh;
+    height: 100%;
 }
 .hot-deal-content{
     text-align: center;
+}
+.hot-deal-image img{
+    width: 100%;
 }
 .hot-deal-title{
     color: #272727;
@@ -154,12 +172,17 @@ header{
 /* instagram section styles */
 .instagram-section{
     margin-top: 130px;
+    overflow: hidden;
 }
 .instagram-images{
     max-width: 1440px;
     display: flex;
     margin: 0 auto;
     gap: 24px;
+    flex-wrap: wrap;
+}
+.image{
+    width: 23%;
 }
 .insta-title{
     color: #272727;
@@ -181,6 +204,7 @@ header{
 /* extra new arrival section styles */
 .new-arrival-section{
     margin-top: 130px;
+    overflow: hidden;
 }
 .arrival-title{
     text-align: center;
@@ -222,17 +246,19 @@ header{
 /* subscribe section styles */
 .subscribe-section{
     margin-top: 130px;
+    overflow: hidden;
 }
 .subscribe-area{
-    max-width: 1440px;
+    max-width: 80vw;
     background-image: url('asset/Rectangle\ 9.png');
-    height: 450px;
+    height: 100%;
     background-repeat: no-repeat;
     margin: auto;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-block: 3rem;
 }
 
 .subscribe-title{
@@ -270,6 +296,7 @@ header{
   footer{
     background: #111010;
     margin-top: 130px;
+    overflow: hidden;
   }
   .footer-area{
     text-align: center;
@@ -293,3 +320,4 @@ header{
     font-size: 16px;
     font-weight: 400;
   }
+
